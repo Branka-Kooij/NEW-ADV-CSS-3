@@ -1,0 +1,92 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c3cfe2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100px;
+  font-family: sans-serif;
+  
+
+}
+
+.social-media-container {
+	position:absolute;
+	top: 50%;
+	list-style: none;
+	padding: 0;
+	transform: translateY(-50%);
+	min-width: 250px;
+	left:95%;
+	right:5%
+}
+
+.social-media {
+	align-items: center;
+	display: flex;
+	transition: transform .3s ease-in-out;
+}
+
+.social-media:hover {
+	transform: translateX(-100%) translateX(70px);
+}
+
+.social-media.blog {
+	background-color: #e17b77;
+}
+
+.social-media.facebook {
+	background-color: #3b5998;
+}
+
+.social-media.twitter {
+	background-color: #00aced;
+}
+
+.social-media.github {
+	background-color: #333;
+}
+
+.social-media.linkedin {
+	background-color: #007bb6;
+}
+
+.social-media i {
+	color: #fff;
+	font-size: 20px;
+	padding: 15px;
+	text-align: center;
+	width: 70px;
+}
+
+.social-media a {
+	color: #fff;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+
+.fa-laptop-code:before {
+    content: "\f5fc";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+.fa-github:before {
+    content: "\f09b";
+}
+
